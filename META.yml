@@ -22,4 +22,6 @@ requires:
   Test::Exception: '0'
   Test::More: '0.88'
   URI: '0'
-version: 1.0.1
+resources:
+  repository: https://github.com/lokku/perl-Geo-What3Words.git
+version: 1.0.2
