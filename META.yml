@@ -22,4 +22,4 @@ requires:
   Test::Exception: '0'
   Test::More: '0.88'
   URI: '0'
-version: '1.0'
+version: 1.0.1
