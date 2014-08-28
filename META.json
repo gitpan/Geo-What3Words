@@ -29,7 +29,8 @@
             "Net::Ping::External" : "0",
             "Test::Exception" : "0",
             "Test::More" : "0.88",
-            "URI" : "0"
+            "URI" : "0",
+            "perl" : "5.010"
          }
       }
    },
@@ -41,6 +42,6 @@
          "web" : "https://github.com/lokku/perl-Geo-What3Words"
       }
    },
-   "version" : "1.0.2"
+   "version" : "1.0.3"
 }
 
