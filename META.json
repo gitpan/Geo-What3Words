@@ -34,6 +34,12 @@
          }
       }
    },
+   "provides" : {
+      "Geo::What3Words" : {
+         "file" : "lib/Geo/What3Words.pm",
+         "version" : "v1.0.4"
+      }
+   },
    "release_status" : "stable",
    "resources" : {
       "repository" : {
@@ -42,6 +48,6 @@
          "web" : "https://github.com/lokku/perl-Geo-What3Words"
       }
    },
-   "version" : "1.0.3"
+   "version" : "1.0.4"
 }
 

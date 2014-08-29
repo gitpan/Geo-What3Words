@@ -12,6 +12,10 @@ meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: '1.4'
 name: Geo-What3Words
+provides:
+  Geo::What3Words:
+    file: lib/Geo/What3Words.pm
+    version: v1.0.4
 requires:
   Data::Dumper: '0'
   JSON: '2'
@@ -25,4 +29,4 @@ requires:
   perl: '5.010'
 resources:
   repository: https://github.com/lokku/perl-Geo-What3Words.git
-version: 1.0.3
+version: 1.0.4
