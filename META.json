@@ -37,7 +37,7 @@
    "provides" : {
       "Geo::What3Words" : {
          "file" : "lib/Geo/What3Words.pm",
-         "version" : "v1.0.4"
+         "version" : "v1.0.5"
       }
    },
    "release_status" : "stable",
@@ -48,6 +48,6 @@
          "web" : "https://github.com/lokku/perl-Geo-What3Words"
       }
    },
-   "version" : "1.0.4"
+   "version" : "1.0.5"
 }
 

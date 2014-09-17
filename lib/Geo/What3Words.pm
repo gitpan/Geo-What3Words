@@ -1,7 +1,7 @@
 # ABSTRACT: Turn WGS84 coordinates into three words or OneWords and vice-versa using w3w.co HTTP API
 
 package Geo::What3Words;
-$Geo::What3Words::VERSION = '1.0.4';
+$Geo::What3Words::VERSION = '1.0.5';
 use strict;
 use warnings;
 use URI;
@@ -25,7 +25,7 @@ sub new {
   my $self = {};
   $self->{api_endpoint}     = $params{api_endpoint} || 'http://api.what3words.com/';
   $self->{key}              = $params{key}      || die "API key not set";
-  $self->{language}         = $params{language} || 'en';
+  $self->{language}         = $params{language};
   $self->{logging}          = $params{logging};
 
   $self->{ua} = LWP::UserAgent->new;
@@ -207,6 +207,7 @@ sub _execute_query {
       key    => $self->{key},
       %$rh_params
   };
+  delete $rh_fields->{lang} if !$rh_fields->{lang};
 
 
   local $Data::Dumper::Indent = 0;
@@ -273,7 +274,7 @@ Geo::What3Words - Turn WGS84 coordinates into three words or OneWords and vice-v
 
 =head1 VERSION
 
-version 1.0.4
+version 1.0.5
 
 =head1 SYNOPSIS
 
