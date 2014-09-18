@@ -9,6 +9,13 @@ README
 README.md
 dist.ini
 lib/Geo/What3Words.pm
+t/LWPCache/4ecdf4853871826465ff1f174af763c5
+t/LWPCache/5abc2eae3378cc292925b772c57511e8
+t/LWPCache/700c8dd464465c6a4d87690f68bb0f19
+t/LWPCache/9634d9396b15bf2018fee7f913a982f7
+t/LWPCache/ca4548d43c71b52c6018e92ee2927611
+t/LWPCache/f09da78c3e32fbd697641eddd45b8d85
+t/LWPCache/f63427beba85da82c1333e0c2d5d647c
 t/base.t
 t/critic.t
 t/perlcriticrc

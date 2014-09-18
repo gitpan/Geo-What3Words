@@ -27,10 +27,11 @@ my %WriteMakefileArgs = (
     "Net::Ping" => 0,
     "Net::Ping::External" => 0,
     "Test::Exception" => 0,
+    "Test::LWP::Recorder" => 0,
     "Test::More" => "0.88",
     "URI" => 0
   },
-  "VERSION" => "1.0.5",
+  "VERSION" => "1.0.6",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -45,6 +46,7 @@ my %FallbackPrereqs = (
   "Net::Ping" => 0,
   "Net::Ping::External" => 0,
   "Test::Exception" => 0,
+  "Test::LWP::Recorder" => 0,
   "Test::More" => "0.88",
   "URI" => 0
 );

@@ -15,7 +15,7 @@ name: Geo-What3Words
 provides:
   Geo::What3Words:
     file: lib/Geo/What3Words.pm
-    version: v1.0.5
+    version: v1.0.6
 requires:
   Data::Dumper: '0'
   JSON: '2'
@@ -24,9 +24,10 @@ requires:
   Net::Ping: '0'
   Net::Ping::External: '0'
   Test::Exception: '0'
+  Test::LWP::Recorder: '0'
   Test::More: '0.88'
   URI: '0'
   perl: '5.010'
 resources:
   repository: https://github.com/lokku/perl-Geo-What3Words.git
-version: 1.0.5
+version: 1.0.6

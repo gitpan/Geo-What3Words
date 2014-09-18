@@ -28,6 +28,7 @@
             "Net::Ping" : "0",
             "Net::Ping::External" : "0",
             "Test::Exception" : "0",
+            "Test::LWP::Recorder" : "0",
             "Test::More" : "0.88",
             "URI" : "0",
             "perl" : "5.010"
@@ -37,7 +38,7 @@
    "provides" : {
       "Geo::What3Words" : {
          "file" : "lib/Geo/What3Words.pm",
-         "version" : "v1.0.5"
+         "version" : "v1.0.6"
       }
    },
    "release_status" : "stable",
@@ -48,6 +49,6 @@
          "web" : "https://github.com/lokku/perl-Geo-What3Words"
       }
    },
-   "version" : "1.0.5"
+   "version" : "1.0.6"
 }
 
